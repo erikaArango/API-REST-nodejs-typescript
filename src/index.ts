@@ -1,5 +1,5 @@
 import express from "express"  //ESModules
-import diaryRouter from  './routes/diaries'
+import diaryRouter from  './routes/_diaries'
 
 const app = express ()
 app.use(express.json()) //middleware que transforma req.body a un json
