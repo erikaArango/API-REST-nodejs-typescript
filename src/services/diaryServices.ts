@@ -1,7 +1,7 @@
 import { DiaryEntry, NewDiaryEntry, NonSensitiveInfoDiaryEntry } from '../types'
 import diaryData from './diaries.json'
 
-const diaries: DiaryEntry [] = diaryData as DiaryEntry[]
+const diaries: DiaryEntry[] = diaryData as DiaryEntry[]
 
 export const getEntries = (): DiaryEntry[] => diaries
 
@@ -32,6 +32,6 @@ export const addDiary = (newDiaryEntry: NewDiaryEntry): DiaryEntry => {
     ...newDiaryEntry
   }
 
-  diaries.push(newDiaryEntry)
+  diaries.push(newDiary)
   return newDiary
 }
