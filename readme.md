@@ -12,4 +12,4 @@ To run the application use the command
 `npm install`
 `npm run dev`
 
-To view it in the browser use [http://localhost:3000](http://localhost:3000)
+To view it in the browser use [http://localhost:3000](http://localhost:3000/api/diaries)
